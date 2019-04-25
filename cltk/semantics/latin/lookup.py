@@ -26,7 +26,7 @@ class Lemmata:
         """Check for availability of the specified dictionary."""
         filename = self.dictionary + '.py'
         models = self.language + '_models_cltk'
-        rel_path = os.path.join('~/cltk_data',
+        rel_path = os.path.join('/Users/Neil/cltk_data',
                                 self.language,
                                 'model',
                                 models,
